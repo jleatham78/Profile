@@ -1,6 +1,6 @@
 :root {
     --tan: #d2b99d;
-    --gray: lightslategray;
+    --gray: slategray;
 }
 
 * {
@@ -69,7 +69,40 @@ header nav ul li a {
     font-style: italic;
     font-size: 15px;
     color: var(--gray);
-    position: absolute;
-    right: 70px;
-    bottom: 200px;   
+    text-align: right;
+    margin-right: 25px; 
 }
+
+/*Body content */
+
+.section-title {
+    font-weight: bold;
+    font-size: 33px;
+    border-bottom: 3px solid var(--tan);
+    text-align: left;
+    margin: auto;
+    padding: 45px;
+    width: 80%;
+}
+
+.contact-info ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.contact-info ul li a {
+    color: var(--gray);
+}
+
+.bio {
+    padding: 30px;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+
