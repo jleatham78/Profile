@@ -65,6 +65,22 @@ header nav ul li a {
     height: 300px;
 }
 
+.hero h2 {
+    float:right;
+    margin-top: 125px;
+    margin-right: 45px;
+}
+
+.headshot {
+    height: 180px;
+    width: 195px;
+    background-image: url("../images/headshot.jpg");
+    float:right;
+    margin-right: 25px;
+    margin-top: 55px;
+    display: inline;
+}
+
 .subtitle {
     font-style: italic;
     font-size: 15px;
@@ -83,6 +99,54 @@ header nav ul li a {
     margin: auto;
     padding: 45px;
     width: 80%;
+}
+
+.grid-container {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding: 15px;
+    margin: auto;
+}
+
+.grid-container a {
+    text-decoration: none;
+}
+
+.grid-item-1 {
+    border: 4px solid var(--tan);
+    height: 175px;
+    margin: 15px;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;   
+}
+
+
+.grid-item-2 {
+    border: 4px solid var(--tan);
+    height: 125px;
+    width: 225px;
+    margin: 15px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+
+.grid-item-3 {
+    border: 4px solid var(--tan);
+    height: 125px;
+    width: 225px;
+    margin: 15px;
+    background-image: url("../images/placeholder.png");
+    background-size: cover;
 }
 
 .contact-info ul {
@@ -104,5 +168,25 @@ header nav ul li a {
     align-items: center;
     margin: auto;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position; relative;
+    }
+
+    header nav ul {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .grid-container {
+        margin-left: 10px;
+    }
+
+}
+
+
 
 
