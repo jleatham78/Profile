@@ -34,7 +34,6 @@ header h1 a {
     font-size: 36px;
     color: var(--gray);
     margin: 0;
-    text-decoration: none;
 }
 
 header nav {
@@ -118,7 +117,7 @@ header nav ul li a {
     border: 4px solid var(--tan);
     height: 175px;
     margin: 15px;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/cityscape.jpg");
     background-size: cover;
     font-size: 25px;
     font-weight: bold;
@@ -145,8 +144,12 @@ header nav ul li a {
     height: 125px;
     width: 225px;
     margin: 15px;
-    background-image: url("../images/placeholder.png");
+    background-image: url("../images/hero-bg.jpg");
     background-size: cover;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
 }
 
 .contact-info ul {
